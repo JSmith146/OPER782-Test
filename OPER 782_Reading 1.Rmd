@@ -1,0 +1,21 @@
+---
+title: "OPER 782 Reading 1"
+author: "Jeffrey Smith"
+date: "January 7, 2018"
+output: ioslides_presentation #html_document
+---
+
+
+## What is a Remote Repository
+
+* Remote Repositories
+  + Versions of your project that are hosed on the Internet or network somewhere
+  + Useful for collaborating with others who need to push/pull data when sharing work
+  + Can be on a local machine
+
+
+## Adding Remote Repositories
+
+* Using the "git clone" command will implicitly add an origin remote
+* To add a new remote Git repository
+  + run `git remote add <shortname> <url>`
